@@ -12,7 +12,20 @@ body {
   line-height: 1.5;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+
+
+.timer {
+  display: flex;
+  gap: 30px;
+ padding-top: 20px;
+}
+
+.field {
+  display: flex;
+ 
+  border-radius: 15px;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+    
 }
