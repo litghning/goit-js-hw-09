@@ -2,7 +2,7 @@ import Notiflix from 'notiflix';
 
 const formRef = document.querySelector('.form');
 
-formRef.addEventListener('c', onStartClick);
+formRef.addEventListener('submit', onStartClick);
 
 function onStartClick(evt) {
   evt.preventDefault();

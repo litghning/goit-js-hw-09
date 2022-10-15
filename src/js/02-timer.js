@@ -32,6 +32,7 @@ const options = {
               
           )
           btnRef.disabled = true;
+          
       } else {
           btnRef.removeAttribute('disabled');
     }
@@ -65,7 +66,8 @@ class Timer {
       } else {
         const time = this.convertMs(deltaTime);
         btnRef.disabled = true;
-        this.onTick(time);
+          this.onTick(time);
+          inputRef.disabled = true;
       }
     }, 1000);
   }
